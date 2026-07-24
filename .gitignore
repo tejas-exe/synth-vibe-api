@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+
+# Node version
+.nvmrc.local
+
+# Package manager
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+
+# Optional local database
+*.sqlite
+*.sqlite3
+
+# Uploads (if generated at runtime)
+uploads/
+
+# Docker
+.dockerignore
+
+# Misc
+*.tgz
